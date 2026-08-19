@@ -16,36 +16,40 @@
         <section class="calculadora">
             <div class="container">
                 <div class="header-visor">
-                    <input type="text" readonly class="visor">
+                    <input type="text" readonly class="visor" id="visor">
                 </div>
                 <div class="main-btn">
-                    <button class="calcu-btn">CE</button>
-                    <button class="calcu-btn">C</button>
-                    <button class="calcu-btn">&#9003;</button>
+                    <button class="calcu-btn acao">CE</button>
+                    <button class="calcu-btn acao">C</button>
+                    <button class="calcu-btn acao">&#9003;</button>
                     <button class="calcu-btn btn-operador">&percnt;</button>
-                    <button class="calcu-btn">7</button>
-                    <button class="calcu-btn">8</button>
-                    <button class="calcu-btn">9</button>
+                    <button class="calcu-btn numero">7</button>
+                    <button class="calcu-btn numero">8</button>
+                    <button class="calcu-btn numero">9</button>
                     <button class="calcu-btn btn-operador">&divide;</button>
-                    <button class="calcu-btn">4</button>
-                    <button class="calcu-btn">5</button>
-                    <button class="calcu-btn">6</button>
+                    <button class="calcu-btn numero">4</button>
+                    <button class="calcu-btn numero">5</button>
+                    <button class="calcu-btn numero">6</button>
                     <button class="calcu-btn btn-operador">&times;</button>
-                    <button class="calcu-btn">1</button>
-                    <button class="calcu-btn">2</button>
-                    <button class="calcu-btn">3</button>
+                    <button class="calcu-btn numero">1</button>
+                    <button class="calcu-btn numero">2</button>
+                    <button class="calcu-btn numero">3</button>
                     <button class="calcu-btn btn-operador">&minus;</button>
-                    <button class="calcu-btn">0</button>
-                    <button class="calcu-btn">&comma;</button>
+                    <button class="calcu-btn numero">0</button>
+                    <button class="calcu-btn numero">&comma;</button>
                     <button class="calcu-btn btn-operador">&plus;</button>
-                    <button class="calcu-btn btn-operador">&equals;</button>
+                    <button id="btn-igual" class="calcu-btn btn-operador">&equals;</button>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p></p>
+        <div class="rotape-container">
+            <p class="rotape-texto">© 2026 Davi. Todos os direitos reservados.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
